@@ -1,0 +1,23 @@
+{
+  "name": "announcements",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "area": {
+      "type": "number"
+    },
+    "test": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
